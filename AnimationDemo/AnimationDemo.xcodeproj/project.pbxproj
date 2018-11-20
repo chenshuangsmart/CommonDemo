@@ -24,12 +24,12 @@
 		930E25892172DA5F00D69B70 /* TransitionUIAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930E25882172DA5F00D69B70 /* TransitionUIAnimationViewController.m */; };
 		93A0E12C216B9ACF00DFA155 /* CALayerDefaultAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A0E12B216B9ACF00DFA155 /* CALayerDefaultAnimationVC.m */; };
 		93A0E12F216B9D5600DFA155 /* CALayerDrawInRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A0E12E216B9D5600DFA155 /* CALayerDrawInRectViewController.m */; };
-		93A0E132216BA10F00DFA155 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A0E131216BA10F00DFA155 /* BaseViewController.m */; };
 		93A0E135216BA74300DFA155 /* CustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A0E134216BA74300DFA155 /* CustomLayer.m */; };
 		93A0E138216BA76B00DFA155 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A0E137216BA76B00DFA155 /* CustomView.m */; };
 		93A0E13B216BA7A700DFA155 /* CustomLayerDrawInRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A0E13A216BA7A700DFA155 /* CustomLayerDrawInRectViewController.m */; };
 		93A0E13E216BB4E200DFA155 /* CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A0E13D216BB4E200DFA155 /* CoreAnimationViewController.m */; };
 		93A9E4AF216E4ADA004DA839 /* CoreAnimation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A9E4AE216E4ADA004DA839 /* CoreAnimation2ViewController.m */; };
+		93D4C362218554E600E76617 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D4C361218554E600E76617 /* BaseViewController.m */; };
 		93E02A3921699BB800BAD584 /* MyTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E02A3821699BB800BAD584 /* MyTestView.m */; };
 		93E02A3C21699BCA00BAD584 /* MyTestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E02A3B21699BCA00BAD584 /* MyTestLayer.m */; };
 		93E02A3F216A05BA00BAD584 /* LayerTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E02A3E216A05BA00BAD584 /* LayerTransformViewController.m */; };
@@ -75,8 +75,6 @@
 		93A0E12B216B9ACF00DFA155 /* CALayerDefaultAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerDefaultAnimationVC.m; sourceTree = "<group>"; };
 		93A0E12D216B9D5600DFA155 /* CALayerDrawInRectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CALayerDrawInRectViewController.h; sourceTree = "<group>"; };
 		93A0E12E216B9D5600DFA155 /* CALayerDrawInRectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerDrawInRectViewController.m; sourceTree = "<group>"; };
-		93A0E130216BA10F00DFA155 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		93A0E131216BA10F00DFA155 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		93A0E133216BA74300DFA155 /* CustomLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLayer.h; sourceTree = "<group>"; };
 		93A0E134216BA74300DFA155 /* CustomLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLayer.m; sourceTree = "<group>"; };
 		93A0E136216BA76B00DFA155 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
@@ -87,6 +85,8 @@
 		93A0E13D216BB4E200DFA155 /* CoreAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationViewController.m; sourceTree = "<group>"; };
 		93A9E4AD216E4ADA004DA839 /* CoreAnimation2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAnimation2ViewController.h; sourceTree = "<group>"; };
 		93A9E4AE216E4ADA004DA839 /* CoreAnimation2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation2ViewController.m; sourceTree = "<group>"; };
+		93D4C360218554E600E76617 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		93D4C361218554E600E76617 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		93E02A3721699BB800BAD584 /* MyTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTestView.h; sourceTree = "<group>"; };
 		93E02A3821699BB800BAD584 /* MyTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTestView.m; sourceTree = "<group>"; };
 		93E02A3A21699BCA00BAD584 /* MyTestLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTestLayer.h; sourceTree = "<group>"; };
@@ -196,8 +196,8 @@
 		4050643E2168C50E00162CB3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				93A0E130216BA10F00DFA155 /* BaseViewController.h */,
-				93A0E131216BA10F00DFA155 /* BaseViewController.m */,
+				93D4C360218554E600E76617 /* BaseViewController.h */,
+				93D4C361218554E600E76617 /* BaseViewController.m */,
 				4050642F2168B2A700162CB3 /* RootViewController.h */,
 				405064302168B2A700162CB3 /* RootViewController.m */,
 				405064322168BD5A00162CB3 /* AnimateViewController.h */,
@@ -309,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				930E25832172D5F300D69B70 /* SpringAnimationViewController.m in Sources */,
+				93D4C362218554E600E76617 /* BaseViewController.m in Sources */,
 				930E257D2172D1C600D69B70 /* CADisplaylinkAnimationViewController.m in Sources */,
 				4050643A2168C0A200162CB3 /* UIView+Extension.m in Sources */,
 				405064292168B27C00162CB3 /* main.m in Sources */,
@@ -320,7 +321,6 @@
 				93A0E13B216BA7A700DFA155 /* CustomLayerDrawInRectViewController.m in Sources */,
 				930E257A2172C9D200D69B70 /* TransitionAnimationViewController.m in Sources */,
 				405064372168BDAD00162CB3 /* BaseItem.m in Sources */,
-				93A0E132216BA10F00DFA155 /* BaseViewController.m in Sources */,
 				93A0E12C216B9ACF00DFA155 /* CALayerDefaultAnimationVC.m in Sources */,
 				93A0E138216BA76B00DFA155 /* CustomView.m in Sources */,
 				93E02A42216A4F6900BAD584 /* ProgressLayer.m in Sources */,
