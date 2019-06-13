@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400EF4CA22B1DE6E00F1591D /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 400EF4C922B1DE6E00F1591D /* UIButton+Extension.m */; };
 		93B3E28822B14A9500D91CC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B3E28722B14A9500D91CC8 /* AppDelegate.m */; };
 		93B3E28B22B14A9500D91CC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B3E28A22B14A9500D91CC8 /* ViewController.m */; };
 		93B3E28E22B14A9500D91CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B3E28C22B14A9500D91CC8 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400EF4C822B1DE6E00F1591D /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		400EF4C922B1DE6E00F1591D /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		93B3E28322B14A9500D91CC8 /* AvoidBtnRepeatClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvoidBtnRepeatClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B3E28622B14A9500D91CC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93B3E28722B14A9500D91CC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				93B3E28722B14A9500D91CC8 /* AppDelegate.m */,
 				93B3E28922B14A9500D91CC8 /* ViewController.h */,
 				93B3E28A22B14A9500D91CC8 /* ViewController.m */,
+				400EF4C822B1DE6E00F1591D /* UIButton+Extension.h */,
+				400EF4C922B1DE6E00F1591D /* UIButton+Extension.m */,
 				93B3E28C22B14A9500D91CC8 /* Main.storyboard */,
 				93B3E28F22B14A9600D91CC8 /* Assets.xcassets */,
 				93B3E29122B14A9600D91CC8 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B3E28B22B14A9500D91CC8 /* ViewController.m in Sources */,
+				400EF4CA22B1DE6E00F1591D /* UIButton+Extension.m in Sources */,
 				93B3E29622B14A9600D91CC8 /* main.m in Sources */,
 				93B3E28822B14A9500D91CC8 /* AppDelegate.m in Sources */,
 			);
