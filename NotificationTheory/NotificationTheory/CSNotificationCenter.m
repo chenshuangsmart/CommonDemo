@@ -108,7 +108,7 @@ typedef void(^operationBlock)(CSNotification *notification);
     return nil;
 }
 
-#pragma mark - 接收通知
+#pragma mark - 发送通知
 
 - (void)postNotification:(CSNotification *)notification {
     // 根据 name 取出对应观察者数组,执行任务

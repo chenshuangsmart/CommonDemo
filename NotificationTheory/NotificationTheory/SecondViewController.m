@@ -54,7 +54,7 @@ static NSString *kTextFieldValueChange = @"kTextFieldValueChange";
     
     // 发送通知 - 系统
     [[NSNotificationCenter defaultCenter] postNotificationName:kTextFieldValueChange object:self.textF.text];
-    NSNotification;
+    
     // 发送通知 - 自定义
     [[CSNotificationCenter defaultCenter] postNotificationName:kTextFieldValueChange object:self.textF.text];
     
